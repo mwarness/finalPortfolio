@@ -1,0 +1,119 @@
+*{
+    font-family: "Barrio";
+}
+h2{
+    font-family: "Barrio";
+}
+
+
+#welcome{
+    font-family: "Barrio";
+}
+#weird{
+    font-family: "Barrio";
+}
+#portfolio{
+    font-family: "Barrio ";
+    background-color: #343a40!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+}
+
+#come{
+    font-family: "Barrio";
+    
+}
+#headerText{
+    font-family: "Barrio";
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    font-family: "Barrio";
+
+}
+#services{
+    font-family: "Barrio ";
+}
+/* #marleyAndMe{ */
+    /* background-image: url(/Users/markwarness/Desktop/homework/Portfolio-updated/img/marleyAndMe.jpg); The image used */
+    /* background-color: #cccccc; Used if the image is unavailable */
+    /* height: 500px; You must set a specified height */
+    /* background-position: center; Center the image */
+    /* background-repeat: no-repeat; Do not repeat the image */
+    /* background-size: cover; Resize the background image to cover the entire container */
+    /* border-radius: 50%; */
+/* }    */
+    
+#containerMarley{
+    position: relative;
+    width: 100%;
+    vertical-align: center;
+}
+      
+#imageMarley {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+      
+#overlayMarley {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 10%;
+}
+      
+#containerMarley:hover #overlayMarley {
+    opacity: 1;
+}
+
+#textMarley {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+#trigger{
+    display: inline-block;
+    vertical-align: bottom;
+    
+
+}
+#about{
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+#aboutHeader{
+    padding-top: 20px;
+}
+#centerLove{
+    margin-left: 37.5%
+}
+
+  
+
+    
+
+#peace{
+    background-color: white !important;
+    
+}
+
+
+
+
