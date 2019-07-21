@@ -26,6 +26,8 @@ h2{
 }
 #headerText{
     font-family: "Barrio";
+    color: rgba(255,255,255,.7);
+    
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
@@ -33,7 +35,8 @@ h2{
 
 }
 #services{
-    font-family: "Barrio ";
+    font-family: "Barrio";
+    background-color: #f8f9fa!important;
 }
 /* #marleyAndMe{ */
     /* background-image: url(/Users/markwarness/Desktop/homework/Portfolio-updated/img/marleyAndMe.jpg); The image used */
@@ -55,7 +58,7 @@ h2{
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 100%;
 }
       
 #overlayMarley {
@@ -69,7 +72,7 @@ h2{
     opacity: 0;
     transition: .5s ease;
     background-color: black;
-    border-radius: 10%;
+    border-radius: 100%;
 }
       
 #containerMarley:hover #overlayMarley {
@@ -90,19 +93,26 @@ h2{
 #trigger{
     display: inline-block;
     vertical-align: bottom;
+    font-family: "Barrio" !important;
     
 
 }
 #about{
     padding-top: 80px;
     padding-bottom: 35px;
+    background-color:rgb(220,220,220) !important;
 }
 
 #aboutHeader{
     padding-top: 20px;
+    color: black !important;
 }
 #centerLove{
     margin-left: 37.5%
+}
+
+#marley{
+    background:#343a40!important;
 }
 
   
@@ -113,6 +123,50 @@ h2{
     background-color: white !important;
     
 }
+#contact{
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+footer{
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+}
+#columnBorder{
+    padding-bottom: 20px;
+}
+#portfolioHeader{
+    
+    color:#f8f9fa !important;
+    -webkit-text-decoration:#f8f9fa double overline;
+    text-decoration: #f8f9fa double overline;
+    -webkit-text-decoration-skip: space;
+    text-decoration-skip: space;
+    -webkit-text-decoration: #f8f9fa double underline;
+    text-decoration: #f8f9fa double underline;
+    -webkit-text-decoration-skip: space;
+    text-decoration-skip: space;
+    font-family:"Barrio" !important;
+    display: inline-block !important;
+    margin: auto !important;
+    text-align: center !important;
+    width: 100%;
+    font-size: 50px;
+
+}
+.fullstack{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+
+.bg-light{
+    background:#343a40!important;
+
+}
+/* 
+.textLink{
+
+} */
 
 
 

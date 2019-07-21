@@ -103,13 +103,13 @@
 
           <h2 class="text-white mt-0" id="aboutHeader">About the Author</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Im 31 years old and brand new to the tech field. After a decade of working in
+          <p class="text-black-50 mb-4">Im 31 years old and brand new to the tech field. After a decade of working in
             every industry possible I feel like I've finally found my home in web development. Currently I'm a student
             in a fullstack coding bootcamp at Penn. We are coming up on the halfway point so check in back in 3 months
             to see my new additions!
 
           </p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" id="trigger" href="#services">Get Started!</a>
+          <a class="btn btn-light btn-xl js-scroll-trigger" id="trigger" href="#services">You've been warned!</a>
         </div>
       </div>
     </div>
@@ -117,7 +117,7 @@
 
   <!-- Services Section -->
   <section class="page-section" id="services">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center" id="centerLove">
           <div class="mt-5">
@@ -132,94 +132,121 @@
 
   <!-- Portfolio Section -->
   <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/antiMayhem.png">
-            <img class="img-fluid" src="img/portfolio/antiMayhem.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Full Stack Group Project
-              </div>
-              <div class="project-name">
-                Project (anti)Mayhem
-              </div>
+    <div class="container-fluid" id="portfolioHeader">Recent Projects</div>
+    <!-- <div class="row justify-content-center"> -->
+    <!-- <div class="col-lg-8 text-center" id="columnBorder"> -->
+    <div class="row gutters">
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box fullstack" href="img/portfolio/antiMayhem.png">
+          <img class="img-fluid" src="img/portfolio/antiMayhem.png" alt=""></img>
+          <div class="portfolio-box-caption fullstack">
+            <div class="project-category text-white-50 textLink">
+              Fullstack Group Project
             </div>
-          </a>
-        </div>
-     
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/trainSchedule.png">
-            <img class="img-fluid" src="img/portfolio/trainSchedule.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Firebase Assignment
-              </div>
-              <div class="project-name">
-                Project Train Schedule
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/mooseMan2.png">
-            <img class="img-fluid" src="img/portfolio/mooseMan2.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Trivia Game
-              </div>
-              <div class="project-name">
-                Project Mooseman
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div> -->
+            <div class="project-name textLink">Project
+              (anti)Mayhem>
 
+
+
+            </div>
+          </div>
+        </a>
       </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box fullstack" href="img/portfolio/trainSchedule.png">
+          <img class="img-fluid" src="img/portfolio/trainSchedule.png" alt="">
+          <div class="portfolio-box-caption fullstack">
+            <div class="project-category text-white-50 textLink">
+              Firebase Assignment
+            </div>
+            <div class="project-name textLink">
+              Project Train Schedule
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box fullstack" href="img/portfolio/mooseMan2.png">
+          <img class="img-fluid" src="img/portfolio/mooseMan2.png" alt="">
+          <div class="portfolio-box-caption">
+            <div class="project-category text-white-50 textLink">
+              Trivia Game
+            </div>
+            <div class="project-name textLink">
+              Project Mooseman
+            </div>
+          </div>
+        </a>
+      </div>
+
+
     </div>
+    
   </section>
 
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-dark" id="peace">
+  <!-- <section class="page-section bg-dark text-dark" id="peace">
     <div class="container text-center">
       <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+    </div>
+  </section> -->
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center" id="centerLove">
+          <div class="mt-5">
+            <!-- <i class="fas fa-4x fa-heart text-primary mb-4"></i> -->
+            <i class="far fa-4x fa-hand-peace text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Thank you for visiting my page!</h3>
+            <p class="text-muted mb-0">Currently still under construction so please come back soon!</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+        <div class="col-lg-8 text-center" id="columnBorder">
           <h2 class="mt-0">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we
-            will get back to you as soon as possible!</p>
+          <p class="text-muted mb-5">Like what you see? Have a project you need completed? Interested in collaborating?
+            Think I'm cute and need a plus one to your bestfriends wedding? Contact me through any of the links below
+            and I will get back to your ASAP!</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+        <div class="col-lg-4 ml-auto text-center">
+          <i class="fab fa-linkedin fa-4x mb-3 text-muted"></i>
+          <a class="d-block" href="https://www.linkedin.com/in/mark-michael-a09717ba/" target="_blank">Hire Me</a>
         </div>
         <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <i class="fas fa-envelope fa-4x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+          <a class="d-block" href="mailto:markwarness@gmail.com">Message Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="contact2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fab fa-4x fa-facebook text-muted"></i>
+          <a class="d-block" href="https://www.facebook.com/profile.php?id=100000474983270" target="_blank">Follow
+            Me</a>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fab fa-4x fa-github text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="https://github.com/mwarness" target="_blank">Checkout More of My Work</a>
         </div>
       </div>
     </div>
@@ -228,7 +255,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <div class="small text-center text-muted">Copyright &copy; 2019<br>A Mark Warness Production<br><i class="fas fa-2x fa-peace"></i></div>
     </div>
   </footer>
 
