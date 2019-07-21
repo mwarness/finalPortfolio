@@ -107,9 +107,9 @@ h2{
     padding-top: 20px;
     color: black !important;
 }
-#centerLove{
+/* #centerLove{
     margin-left: 37.5%
-}
+} */
 
 #marley{
     background:#343a40!important;
@@ -131,9 +131,9 @@ footer{
     padding-top: 24px !important;
     padding-bottom: 24px !important;
 }
-#columnBorder{
+/* #columnBorder{
     padding-bottom: 20px;
-}
+} */
 #portfolioHeader{
     
     color:#f8f9fa !important;
@@ -153,15 +153,47 @@ footer{
     font-size: 50px;
 
 }
-.fullstack{
+/* .fullstack{
     text-align: center;
     margin: auto;
     display: inline-block;
-}
+} */
 
 .bg-light{
     background:#343a40!important;
 
+}
+
+#projectRow{
+    margin-top: 25px;
+}
+
+#overlayProjectPhoto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+   
+}
+      
+#imageHolder:hover #overlayProjectPhoto{
+    opacity: 1;
+}
+
+#textProjectPhoto{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 /* 
 .textLink{
