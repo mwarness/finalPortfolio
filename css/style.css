@@ -210,10 +210,13 @@ footer{
 #wtf{
     font-family: "Barrio" !important
 }
-/* 
-.textLink{
 
-} */
+@media screen and (max-width: 992px){
+    #colMediaMargin{
+        margin-bottom: 3%;
+        margin-top: 3%;
+
+} 
 
 
 
