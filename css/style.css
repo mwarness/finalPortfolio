@@ -42,7 +42,7 @@ h2{
 
 #mainNav .navbar-nav .nav-item .nav-link{
     font-family: "Barrio";
-    color: 
+    
 
 }
 #services{
@@ -221,3 +221,11 @@ footer{
 
 
 
+}
+
+#freeLance{
+     
+        color: #f4623a;
+        text-decoration: none;
+        background-color: transparent;
+    }
