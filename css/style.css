@@ -1,19 +1,19 @@
 *{
-    font-family: "Barrio";
+    font-family: "Quicksand";
 }
 h2{
-    font-family: "Barrio";
+    font-family: "Quicksand";
 }
 
 
 #welcome{
-    font-family: "Barrio";
+    font-family: "Quicksand";
 }
 #weird{
-    font-family: "Barrio";
+    font-family: "Quicksand";
 }
 #portfolio{
-    font-family: "Barrio" !important;
+    font-family: "Quicksand" !important;
     background-color: #343a40!important; 
     padding-top: 50px;
     padding-bottom: 50px;
@@ -21,7 +21,7 @@ h2{
   
 }
 /* #nameNav{
-    font-family: "Barrio" !important; */
+    font-family: "Quicksand" !important; */
     /* background-color: #343a40!important; */
     /* padding-top: 50px;
     padding-bottom: 50px; */
@@ -31,22 +31,22 @@ h2{
 
 
 #come{
-    font-family: "Barrio";
+    font-family: "Quicksand";
     
 }
 #headerText{
-    font-family: "Barrio";
+    font-family: "Quicksand";
     color: rgba(255,255,255,.7);
     
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
-    font-family: "Barrio";
+    font-family: "Quicksand";
     
 
 }
 #services{
-    font-family: "Barrio";
+    font-family: "Quicksand";
     background-color: #f8f9fa!important;
 }
 /* #marleyAndMe{ */
@@ -104,7 +104,7 @@ h2{
 #trigger{
     display: inline-block;
     vertical-align: bottom;
-    font-family: "Barrio" !important;
+    font-family: "Quicksand" !important;
     
 
 }
@@ -156,7 +156,7 @@ footer{
     text-decoration: #f8f9fa double underline;
     -webkit-text-decoration-skip: space;
     text-decoration-skip: space;
-    font-family:"Barrio" !important;
+    font-family:"Quicksand" !important;
     display: inline-block !important;
     margin: auto !important;
     text-align: center !important;
@@ -208,7 +208,7 @@ footer{
 }
 
 #wtf{
-    font-family: "Barrio" !important
+    font-family: "Quicksand" !important
 }
 
 @media screen and (max-width: 992px){
